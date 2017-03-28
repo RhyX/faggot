@@ -1,0 +1,15 @@
+
+
+// Billy "Fallen"
+onLoadName = "SC - GangBase"; // Top
+author = "RhyX"; // Middle
+onLoadMission="RPUK SC GangBase"; // Bottom
+//loadScreen =  "TDMCore\Images\bl_battlepic.paa";
+
+//Settings
+enableDebugConsole = 1;
+respawn = 3;
+respawnDelay = 3;
+respawnOnStart = 1;
+respawnTemplates[] = { "MenuPosition" };
+disabledAI = 1;
