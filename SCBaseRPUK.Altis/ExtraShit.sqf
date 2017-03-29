@@ -17,7 +17,7 @@ _keyHandler = (findDisplay 46) displayAddEventHandler ["KeyDown", {
     _success = false;
 
     switch (_code) do {
-        /* Earplugs with Shift-P */
+        /* Earpluags with Shift-P */
         case 25: {
             if (_shift) then {
                 if (soundVolume != 1) then {

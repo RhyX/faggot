@@ -9,7 +9,15 @@ onLoadMission="RPUK SC GangBase"; // Bottom
 //Settings
 enableDebugConsole = 1;
 respawn = 3;
-respawnDelay = 3;
+respawnDelay = 1;
 respawnOnStart = 1;
-respawnTemplates[] = { "MenuPosition" };
 disabledAI = 1;
+
+
+class cfgFunctions
+{
+	#include "functions\functions.hpp"
+}
+
+#include "defines.hpp"
+#include "dialogs.hpp"
