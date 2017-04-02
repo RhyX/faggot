@@ -4,7 +4,7 @@
 onLoadName = "SC - GangBase"; // Top
 author = "RhyX"; // Middle
 onLoadMission="RPUK SC GangBase"; // Bottom
-//loadScreen =  "TDMCore\Images\bl_battlepic.paa";
+//loadScreen =  "RPUK.paa";
 
 //Settings
 enableDebugConsole = 1;
