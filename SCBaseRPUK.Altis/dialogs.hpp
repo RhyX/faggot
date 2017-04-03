@@ -2,7 +2,7 @@ class RhyX_weaponSelectorDialog
 {
 	idd = 9999
 	movingEnabled = false;
-	
+
 	class controls
 	{
         ////////////////////////////////////////////////////////
@@ -26,7 +26,7 @@ class RhyX_weaponSelectorDialog
         	y = 0.357 * safezoneH + safezoneY;
         	w = 0.0309375 * safezoneW;
         	h = 0.033 * safezoneH;
-        	action = [] execVM "Loadoutmk1.sqf";
+        	action = [] execVM "Weapon_Loadouts\Loadoutmk1.sqf";
         };
         class RhyX_RcsButton_Mk18: RscButton
         {
@@ -36,7 +36,7 @@ class RhyX_weaponSelectorDialog
         	y = 0.401 * safezoneH + safezoneY;
         	w = 0.0309375 * safezoneW;
         	h = 0.033 * safezoneH;
-        	action = [] execVM "Loadoutmk18.sqf";
+        	action = [] execVM "Weapon_Loadouts\Loadoutmk18.sqf";
         };
         class RhyX_RcsButton_Spar17: RscButton
         {
@@ -55,7 +55,7 @@ class RhyX_weaponSelectorDialog
         	y = 0.489 * safezoneH + safezoneY;
         	w = 0.0309375 * safezoneW;
         	h = 0.033 * safezoneH;
-        	action = [] execVM "LoadoutAK12.sqf";
+        	action = [] execVM "Weapon_Loadouts\LoadoutAK12.sqf";
         };
         class RhyX_RcsButton_Type115: RscButton
         {
@@ -66,7 +66,7 @@ class RhyX_weaponSelectorDialog
         	w = 0.0309375 * safezoneW;
         	h = 0.033 * safezoneH;
         	colorActive[] = {0,25,0,1};
-        	action = [] execVM "LoadoutType115.sqf";
+        	action = [] execVM "Weapon_Loadouts\LoadoutType115.sqf";
         };
         class RhyX_RcsButton_MXM: RscButton
         {
@@ -76,7 +76,7 @@ class RhyX_weaponSelectorDialog
         	y = 0.401 * safezoneH + safezoneY;
         	w = 0.0309375 * safezoneW;
         	h = 0.033 * safezoneH;
-        	action = [] execVM "LoadoutMXM.sqf";
+        	action = [] execVM "Weapon_Loadouts\LoadoutMXM.sqf";
         };
         class RhyX_RcsButton_Spar16s: RscButton
         {
@@ -104,7 +104,7 @@ class RhyX_weaponSelectorDialog
         	y = 0.357 * safezoneH + safezoneY;
         	w = 0.0309375 * safezoneW;
         	h = 0.033 * safezoneH;
-        	action = [] execVM "LoadoutRCO.sqf";
+        	action = [] execVM "Weapon_Loadouts\LoadoutRCO.sqf";
         };
         class RhyX_RcsButton_ARCO: RscButton
         {
@@ -114,7 +114,7 @@ class RhyX_weaponSelectorDialog
         	y = 0.400 * safezoneH + safezoneY;
         	w = 0.0309375 * safezoneW;
         	h = 0.033 * safezoneH;
-        	action = [] execVM "LoadoutARCO.sqf";
+        	action = [] execVM "Weapon_Loadouts\LoadoutARCO.sqf";
         };
         class RhyX_RcsButton_MRCO: RscButton
         {
@@ -124,7 +124,7 @@ class RhyX_weaponSelectorDialog
         	y = 0.445 * safezoneH + safezoneY;
         	w = 0.0309375 * safezoneW;
         	h = 0.033 * safezoneH;
-        	action = [] execVM "LoadoutMRCO.sqf";
+        	action = [] execVM "Weapon_Loadouts\LoadoutMRCO.sqf";
         };
         class RhyX_RcsText_Header: RscText
         {
@@ -138,4 +138,3 @@ class RhyX_weaponSelectorDialog
         };
 	};
 };
-
